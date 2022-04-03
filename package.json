@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/matumoto1234/clasp-form-sandbox#readme",
   "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-typescript": "^7.16.7",
     "@google/clasp": "^2.4.1",
     "@types/google-apps-script": "^1.0.45",
+    "babel-loader": "^8.2.4",
     "dotenv": "^16.0.0",
     "webpack": "^5.71.0",
     "webpack-cli": "^4.9.2"
