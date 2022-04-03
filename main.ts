@@ -1,6 +1,9 @@
-require('dotenv').config();
-
-const test = () => {
+function test() {
   console.log("hello world");
-  console.log(process.env.TEST)
-};
+  console.log(process.env.TEST);
+}
+
+function main() {
+  require('dotenv').config();
+  test();
+}
