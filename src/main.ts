@@ -7,3 +7,5 @@ function main() {
   require('dotenv').config();
   test();
 }
+
+export default main;
