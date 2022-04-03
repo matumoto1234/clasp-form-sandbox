@@ -1,4 +1,3 @@
-// src/index.ts
 import main from "./main";
 
 declare const global: {
